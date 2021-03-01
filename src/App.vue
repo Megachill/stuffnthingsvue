@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <post-index></post-index>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PostIndex from "@/components/PostIndex"
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    PostIndex,
   }
 }
 </script>
